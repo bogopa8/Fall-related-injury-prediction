@@ -4,7 +4,6 @@ import joblib
 import numpy as np
 import pandas as pd
 from streamlit_shap import st_shap
-import shap
 from PIL import Image
 
 
