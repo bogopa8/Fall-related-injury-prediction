@@ -1,6 +1,6 @@
 streamlit==1.35.0
 matplotlib
-numpy==1.26.4 
+numpy==2.0.0 
 pandas==2.2.2
 joblib==1.4.2
 shap==0.42.1
