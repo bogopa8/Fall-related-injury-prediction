@@ -3,5 +3,4 @@ numpy
 pandas
 joblib
 streamlit_shap
-shap
 PIL
