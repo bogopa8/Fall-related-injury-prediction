@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 from streamlit_shap import st_shap
 import shap
+from catboost import CatBoostClassifier
 from PIL import Image
 
 
