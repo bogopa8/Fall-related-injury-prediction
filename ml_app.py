@@ -94,7 +94,7 @@ def run_ml_app():
     new_df=np.array(sample).reshape(1,-1)       
     importance_PATH = 'model/shap_importance.png'
     model = joblib.load('model/cat_stream.pkl')
-    explainer = joblib.load('model/explainer.pkl')
+    explainer = joblib.load('model/explainer.pkl', 'rb')
     rank = joblib.load('model/rank.pkl')
     pred_prob_o = model.predict_proba(new_df)[0][1]
     pred_prob_n = calibration(pred_prob_o, 520603, 5191, 520603, 9127)
