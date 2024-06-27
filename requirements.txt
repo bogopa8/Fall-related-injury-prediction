@@ -3,5 +3,6 @@ matplotlib
 numpy
 pandas
 joblib
+shap
 streamlit_shap
 pillow
